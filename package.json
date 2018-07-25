@@ -1,0 +1,30 @@
+{
+  "name": "movie-browser",
+  "version": "1.1.0",
+  "description": "HRSF77/78 Review: Movie Browser",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start-dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-sanitize": "^1.7.2",
+    "angular-ui-bootstrap": "^2.5.6",
+    "axios": "^0.18.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "html-entities": "^1.2.1",
+    "jquery": "^3.0.0",
+    "lodash": "^4.17.10",
+    "pg": "^7.4.3",
+    "popper.js": "^1.14.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}

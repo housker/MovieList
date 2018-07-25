@@ -1,0 +1,7 @@
+<div class="md-form">
+  <form class="add-container" ng-submit="$ctrl.addMovie($ctrl.addition)">
+    <input id="add" class="form-control mb-3 add-bar" type="text" placeholder="Add movie title" aria-label="add movie" ng-controller="AppCtrl" ng-model="$ctrl.addition">
+    <input class="btn btn-primary add-button" type="submit" value="Add"></input>
+  </form>
+  <input class="form-control mb-3" type="text" placeholder="Search" aria-label="Search" ng-keyup="$ctrl.searchResults($event.target.value)">
+</div>

@@ -1,0 +1,220 @@
+body {
+  font-family: sans-serif, arial;
+}
+
+.outermost {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.signup-container {
+  /*position: relative;*/
+  /*padding-bottom: 20px;*/
+}
+
+.close-icon {
+  position: absolute;
+  margin: 5px;
+  margin-right: 2px;
+  height: 30px;
+  top: 0px;
+  right: 0px;
+
+}
+
+.signup-input {
+  /*position: relative;*/
+  margin: 40px;
+  margin-bottom: 75px;
+}
+
+.signup-input input {
+  margin-top: 15px;
+}
+
+.alert {
+  margin-top: 15px;
+}
+
+.signup-input button {
+  position: absolute;
+  margin-top: 25px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+
+}
+
+.body-container {
+  display:inline;
+  max-width: 40em;
+  text-align:center;
+}
+
+.jumbotron {
+  color: #4479b2;
+  padding-top: 4px;
+}
+
+.signin {
+  margin: 0px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.signin span {
+  font-size: 0.75em;
+  /*width: 12%;*/
+  float: left;
+  display: inline-block;
+  text-align:left;
+}
+
+.signup {
+  margin-left: 20px;
+}
+
+
+.nav-fill {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccd4e2;
+}
+
+.nav-item-fill {
+  display: inherit;
+  width: 14em;
+  overflow:hidden;
+  margin: 0px;
+  padding: 0px;
+  border: solid;
+}
+
+.list-group {
+  padding-top: 30px;
+  text-align:center;
+}
+
+.list-group-item {
+  border: none !important;
+  display: flex-center;
+}
+
+.add-bar {
+  float: left;
+  max-width: 90%;
+}
+
+.add-button {
+  float: right;
+}
+
+.rate {
+  text-align: center;
+  padding-top: 1px;
+  margin: 0px;
+}
+
+.remove {
+  text-align: center;
+  padding-bottom: 1px;
+  margin: 0px;
+
+}
+
+@media (max-width: 767px) {
+  .add-bar {
+  float: left;
+  max-width: 100%;
+  }
+  .add-button {
+    display: none;
+  }
+}
+
+.text-right {
+  /*display: inline-block;*/
+  float: right;
+}
+
+.text-left {
+  /*display: inline-block;*/
+  text-align: left;
+}
+
+.trash-icon {
+  padding: 2px;
+  transform: translate(0, 5px);
+  height: 20px;
+}
+
+.movie-title {
+  margin-left: 30px;
+  display: inline;
+}
+
+.glyphicon-star, .glyphicon-star-empty {
+  color: #4479b2;
+}
+
+.new-movie {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.title-arrow {
+  float: left;
+  padding: 5px;
+}
+
+.rating-arrow {
+  float: right;
+  padding: 5px;
+}
+
+.details {
+  margin: 10px;
+  padding: 3px;
+  height: 106px;
+  /*display: flex;*/
+}
+
+.review {
+  float: left;
+  width: 60%;
+  padding: 1px;
+  /*display: flex;*/
+  /*object-position: left;*/
+  /*float: left;*/
+}
+
+.trailer {
+  float: right;
+  width: 40%;
+  overflow: hidden;
+  /*display: flex;*/
+  /*object-position: right;*/
+  /*float: right;*/
+}
+
+
+
+
+
+
